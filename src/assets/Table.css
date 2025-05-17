@@ -1,0 +1,99 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.answer-display {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #ffa726;
+    background-color: #333;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row {
+    border-bottom: 1px solid #333;
+}
+
+.table-category {
+    font-family: monospace;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table-buttons {
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.table-button {
+    font-family: monospace;
+    background-color: #203347;
+    color: #ffa726;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.table-button:hover {
+    background-color: #ffa726;
+    color: #203347;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-button {
+    font-family: monospace;
+    display: block;
+    margin: 10px auto 0;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #444;
+    color: #ffa726;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #ffa726;
+    color: #121212;
+}
+
+.category-title {
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.answer {
+    font-size: 1.8rem;
+}
